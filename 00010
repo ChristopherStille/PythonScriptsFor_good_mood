@@ -1,0 +1,10 @@
+def mojefunkce(y, x, c):
+	print(y, x, c)
+
+	
+tuple_vec =(1, 0, 1,)
+dict_vec ={"y": 1, "x": 0, "c": 1}
+ mojefunkce(*tuple_vec)
+1 0 1
+ mojefunkce(**dict_vec)
+1 0 1
